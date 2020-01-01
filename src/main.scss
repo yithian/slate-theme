@@ -1,0 +1,61 @@
+:root {
+  --primary: #36464f;
+  --primary-light: #61717b;
+  --primary-dark: #0f1f27;
+  --secondary: #8A9A5B;
+  --secondary-light: #69995A;
+  --secondary-dark: #4A5D23;
+
+  --ui-text-color: #ffffff;
+
+  --sn-stylekit-info-color: var(--secondary);
+  --sn-stylekit-info-contrast-color: var(--primary-dark);
+
+  --sn-stylekit-neutral-color: #c7c7c7;
+  --sn-stylekit-neutral-contrast-color: white;
+
+  --sn-stylekit-success-color: #00a86b;
+  --sn-stylekit-success-contrast-color: white;
+
+  --sn-stylekit-warning-color: #E3AB57;
+  --sn-stylekit-warning-contrast-color: white;
+
+  --sn-stylekit-danger-color: #733635;
+  --sn-stylekit-danger-contrast-color: white;
+
+  --sn-desktop-titlebar-bg-color: var(--primary-dark);
+  --sn-desktop-titlebar-border-color: var(--primary-light);
+  --sn-desktop-titlebar-ui-color: var(--ui-text-color);
+  --sn-desktop-titlebar-ui-hover-color: var(--secondary-dark);
+
+  --sn-stylekit-shadow-color: var(--primary-light);
+
+  --sn-stylekit-background-color: var(--primary-dark);
+  --sn-stylekit-border-color: var(--primary-light);
+  --sn-stylekit-foreground-color: var(--ui-text-color);
+
+  --sn-stylekit-contrast-background-color: var(--primary);
+  --sn-stylekit-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-border-color: var(--primary-light);
+
+  --sn-stylekit-secondary-background-color: var(--primary);
+  --sn-stylekit-secondary-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-border-color: var(--primary-light);
+
+  --sn-stylekit-secondary-contrast-background-color: var(--primary-light);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--primary-light);
+
+  // editor background color
+  --sn-stylekit-editor-background-color: var(--primary-dark);
+  // editor gutter text color
+  --sn-stylekit-editor-foreground-color: var(--ui-text-color);
+
+  --sn-stylekit-paragraph-text-color: var(--primary-dark);
+
+  --sn-stylekit-input-placeholder-color: var(--primary-light);
+  --sn-stylekit-input-border-color: var(--primary-light);
+
+  --sn-stylekit-scrollbar-track-border-color: var(--primary-light);
+  --sn-stylekit-scrollbar-thumb-color: var(--secondary);
+}
