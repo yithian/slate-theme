@@ -1,6 +1,6 @@
 {
   "name": "sn-theme-slate",
-  "version": "v0.0.3",
+  "version": "v0.0.4",
   "main": "dist/dist.css",
   "devDependencies": {
     "grunt": "^1.0.4",
