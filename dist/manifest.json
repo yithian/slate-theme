@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "version": "1.2",
+  "name": "Slate",
+  "theme": {
+    "images": {},
+    "properties": {},
+    "colors": {
+      "frame": "#252A2F",
+      "tab_line": "#8A9A5B",
+      "tab_loading": "#8A9A5B",
+      "tab_background_text": "#C7C7C7",
+      "toolbar": "#47494A",
+      "toolbar_text": "#ffffff",
+      "toolbar_field": "#525354",
+      "toolbar_field_text": "#BDE4A8",
+      "toolbar_field_highlight": "#8A9A5B",
+      "toolbar_field_highlight_text": "#252A2F",
+      "toolbar_field_border": "#8A9A5B",
+      "toolbar_field_border_focus": "#8A9A5B",
+      "sidebar": "#47494A",
+      "sidebar_text": "#ffffff",
+      "sidebar_highlight": "#525354",
+      "sidebar_highlight_text": "#ffffff",
+      "popup": "#252A2F",
+      "popup_highlight": "#BDE4A8",
+      "popup_highlight_text": "#252A2F",
+      "popup_text": "#C7C7C7",
+      "ntp_background": "#252A2F",
+      "ntp_text": "#ffffff"
+    }
+  }
+}

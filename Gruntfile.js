@@ -10,6 +10,11 @@ module.exports = function(grunt) {
           'work/standard-notes.scss': ['src/standard-notes.scss.tpl'],
         },
       },
+      'firefox-theme': {
+        'files': {
+          'dist/manifest.json': ['src/firefox.json.tpl'],
+        },
+      },
     },
 
     'sass': {
