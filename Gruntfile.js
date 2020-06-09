@@ -1,15 +1,16 @@
 module.exports = function(grunt) {
 
   grunt.initConfig({
-    watch: {
-      css: {
-        files: ['src/**/*.scss'],
-        tasks: ['sass'],
-        options: {
-          spawn: false,
-        },
-      }
-    },
+		"template": {
+			"options": {
+				"data": grunt.file.readJSON("src/colors.json")
+			},
+			"standard-notes-theme": {
+				"files": {
+					"dist/dist.css": ["src/main.scss"]
+				}
+			},
+		},
 
     sass: {
       dist: {
@@ -23,9 +24,8 @@ module.exports = function(grunt) {
     },
   });
 
-  grunt.loadNpmTasks('grunt-newer');
-  grunt.loadNpmTasks('grunt-contrib-watch');
+	grunt.loadNpmTasks('grunt-template');
   grunt.loadNpmTasks('grunt-contrib-sass');
 
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['template']);
 };
