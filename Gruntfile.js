@@ -18,14 +18,12 @@ module.exports = function(grunt) {
     },
 
     'sass': {
-      'sn': {
-        'dist': {
-          'options': {
-           'style': 'expanded',
-         },
-          'files': {
-            'dist/standard-notes.css': 'work/standard-notes.scss',
-          },
+      'dist': {
+        'options': {
+         'style': 'expanded',
+       },
+        'files': {
+          'dist/standard-notes.css': 'work/standard-notes.scss',
         },
       },
     },

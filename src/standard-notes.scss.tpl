@@ -1,7 +1,7 @@
 :root {
   --primary-light: <%= primary_light %>;
   --primary: <%= primary_medium %>;
-  --primary-dark: <% primary_dark %>;
+  --primary-dark: <%= primary_dark %>;
 
   --secondary-light: <%= secondary_light %>;
   --secondary: <%= secondary_medium %>;
