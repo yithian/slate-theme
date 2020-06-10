@@ -23,7 +23,7 @@ module.exports = function(grunt) {
          'style': 'expanded',
        },
         'files': {
-          'dist/dist.css': 'work/standard-notes.scss',
+          'dist/standard-notes.css': 'work/standard-notes.scss',
         },
       },
     },
