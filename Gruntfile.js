@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       },
       'ff': {
         'files': {
-          'work/firefox.json': ['src/firefox.json.tpl'],
+          'work/manifest.json': ['src/firefox.json.tpl'],
         },
       },
     },
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
          'style': 'expanded',
        },
         'files': {
-          'dist/standard-notes.css': 'work/standard-notes.scss',
+          'dist/dist.css': 'work/standard-notes.scss',
         },
       },
     },
@@ -31,12 +31,11 @@ module.exports = function(grunt) {
     'compress': {
       'ff': {
         'options': {
-          'archive': 'work/slate-theme.zip',
+          'archive': 'work/slate-theme.xpi',
           'mode': 'zip',
         },
         'files': [{
-          'cwd': 'work/',
-          'src': ['manifest.json'],
+          'src': ['dist/manifest.json'],
           'dest': '/',
         }],
       },
@@ -50,7 +49,11 @@ module.exports = function(grunt) {
   grunt.registerTask('clean', 'Remove working files', function() {
     grunt.file.delete('work');
   });
-  grunt.registerTask('sn', 'Create the Standard Notes theme files', ['template:sn', 'sass:sn']);
+  grunt.registerTask('dist-clean', 'Remove working files', function() {
+      grunt.file.delete('work');
+      grunt.file.delete('dist');
+    });
+  grunt.registerTask('sn', 'Create the Standard Notes theme files', ['template:sn', 'sass']);
   grunt.registerTask('ff', 'Create the Firefox extension file', ['template:ff', 'compress:ff']);
   grunt.registerTask('default', ['sn', 'ff']);
 };
