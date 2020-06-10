@@ -13,7 +13,7 @@ A theme with shady grey and mossy green highlights.
 ## Standard Notes Installation
 
 1. Click on Extensions -> Import Extension
-2. Paste https://blog.yuggoth.space/p/fvqXJWJqYi into the input box and press enter
+2. Paste https://blog.yuggoth.space/p/QElhOTJ7gH into the input box and press enter
 3. Click Install
 4. Activate Slate
 
