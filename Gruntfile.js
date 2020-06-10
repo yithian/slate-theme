@@ -5,35 +5,54 @@ module.exports = function(grunt) {
       'options': {
         'data': grunt.file.readJSON('src/colors.json')
       },
-      'standard-notes-theme': {
+      'sn': {
         'files': {
           'work/standard-notes.scss': ['src/standard-notes.scss.tpl'],
         },
       },
-      'firefox-theme': {
+      'ff': {
         'files': {
-          'dist/manifest.json': ['src/firefox.json.tpl'],
+          'work/firefox.json': ['src/firefox.json.tpl'],
         },
       },
     },
 
     'sass': {
-      'dist': {
-        'options': {
-         'style': 'expanded',
-       },
-        'files': {
-          'dist/standard-notes.css': 'work/standard-notes.scss',
+      'sn': {
+        'dist': {
+          'options': {
+           'style': 'expanded',
+         },
+          'files': {
+            'dist/standard-notes.css': 'work/standard-notes.scss',
+          },
         },
+      },
+    },
+
+    'compress': {
+      'ff': {
+        'options': {
+          'archive': 'work/slate-theme.zip',
+          'mode': 'zip',
+        },
+        'files': [{
+          'cwd': 'work/',
+          'src': ['manifest.json'],
+          'dest': '/',
+        }],
       },
     },
   });
 
   grunt.loadNpmTasks('grunt-template');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-compress');
 
   grunt.registerTask('clean', 'Remove working files', function() {
     grunt.file.delete('work');
   });
-  grunt.registerTask('default', ['template', 'sass', 'clean']);
+  grunt.registerTask('sn', 'Create the Standard Notes theme files', ['template:sn', 'sass:sn']);
+  grunt.registerTask('ff', 'Create the Firefox extension file', ['template:ff', 'compress:ff']);
+  grunt.registerTask('default', ['sn', 'ff']);
 };
