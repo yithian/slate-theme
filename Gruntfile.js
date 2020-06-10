@@ -7,7 +7,7 @@ module.exports = function(grunt) {
       },
       'sn': {
         'files': {
-          'work/standard-notes.scss': ['src/standard-notes.scss.tpl'],
+          'src/standard-notes.scss': ['src/standard-notes.scss.tpl'],
         },
       },
       'ff': {
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
          'style': 'expanded',
        },
         'files': {
-          'dist/dist.css': 'work/standard-notes.scss',
+          'dist/dist.css': 'src/standard-notes.scss',
         },
       },
     },
