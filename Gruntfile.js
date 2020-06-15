@@ -15,6 +15,11 @@ module.exports = function(grunt) {
           'work/manifest.json': ['src/firefox.json.tpl'],
         },
       },
+      'wt': {
+        'files': {
+          'dist/windows-terminal.json': ['src/windows-terminal.json.tpl'],
+        },
+      },
     },
 
     'sass': {
@@ -55,5 +60,6 @@ module.exports = function(grunt) {
     });
   grunt.registerTask('sn', 'Create the Standard Notes theme files', ['template:sn', 'sass']);
   grunt.registerTask('ff', 'Create the Firefox extension file', ['template:ff', 'compress:ff']);
-  grunt.registerTask('default', ['sn', 'ff']);
+  grunt.registerTask('wt', 'Create the windows-terminal theme snippet', ['template:wt']);
+  grunt.registerTask('default', ['sn', 'ff', 'wt']);
 };

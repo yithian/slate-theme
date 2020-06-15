@@ -21,3 +21,9 @@ A theme with shady grey and mossy green highlights.
 
 1. Browse to https://addons.mozilla.org/en-US/firefox/addon/slate-theme/
 2. Click Install
+
+## windows-terminal usage
+
+1. Launch windows-terminal and open the settings (Ctrl+,)
+2. Add [the theme](./dist/windows-terminal.json) to the "schemes" array
+3. Add `"colorScheme": "slate"` to whichever profile you want to use the theme

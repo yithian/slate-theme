@@ -1,0 +1,21 @@
+        {
+            "name": "slate",
+            "background": "#252A2F",
+            "foreground": "#FFFFFF",
+            "black": "#47494A",
+            "red": "#733635",
+            "green": "#4A5D23",
+            "yellow": "#E3AB57",
+            "blue": "#708090",
+            "purple": "#856FC0",
+            "cyan": "#00C5CD",
+            "white": "#C7C7C7",
+            "brightBlack": "#525354",
+            "brightRed": "#904342",
+            "brightGreen": "#BDE4A8",
+            "brightYellow": "#EECD9A",
+            "brightBlue": "#778899",
+            "brightPurple": "#B2A4D7",
+            "brightCyan": "#48D1CC",
+            "brightWhite": "#EBEBEB"
+        }

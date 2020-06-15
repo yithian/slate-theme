@@ -1,0 +1,21 @@
+        {
+            "name": "slate",
+            "background": "<%= black["dark"] %>",
+            "foreground": "<%= text %>",
+            "black": "<%= black["medium"] %>",
+            "red": "<%= red["dark"] %>",
+            "green": "<%= green["dark"] %>",
+            "yellow": "<%= yellow["dark"] %>",
+            "blue": "<%= blue["dark"] %>",
+            "purple": "<%= magenta["dark"] %>",
+            "cyan": "<%= cyan["dark"] %>",
+            "white": "<%= white["dark"] %>",
+            "brightBlack": "<%= black["bright"] %>",
+            "brightRed": "<%= red["bright"] %>",
+            "brightGreen": "<%= green["bright"] %>",
+            "brightYellow": "<%= yellow["bright"] %>",
+            "brightBlue": "<%= blue["bright"] %>",
+            "brightPurple": "<%= magenta["bright"] %>",
+            "brightCyan": "<%= cyan["bright"] %>",
+            "brightWhite": "<%= white["bright"] %>"
+        }
