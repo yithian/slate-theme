@@ -1,17 +1,39 @@
 {
-  "primary_light": "#525354",
-  "primary_medium": "#47494A",
-  "primary_dark": "#252A2F",
-
-  "secondary_light": "#BDE4A8",
-  "secondary_medium": "#8A9A5B",
-  "secondary_dark": "#4A5D23",
-
-  "text_color": "#ffffff",
-  "border_color": "#121212",
-
-  "neutral_color": "#C7C7C7",
-  "success_color": "#00A86B",
-  "warning_color": "#E3AB57",
-  "danger_color": "#733635"
+  "black": {
+    "dark": "#252A2F",
+    "medium": "#47494A",
+    "bright": "#525354"
+  },
+  "red": {
+    "dark": "#733635",
+    "bright": "#904342"
+  },
+  "green": {
+    "dark": "#4A5D23",
+    "medium": "#8A9A5B",
+    "bright": "#BDE4A8"
+  },
+  "yellow": {
+    "dark": "#E3AB57",
+    "bright": "#EECD9A"
+  },
+  "blue": {
+    "dark": "#708090",
+    "bright": "#778899"
+  },
+  "magenta": {
+    "dark": "#856FC0",
+    "bright": "#B2A4D7"
+  },
+  "cyan": {
+    "dark": "#00C5CD",
+    "bright": "#48D1CC"
+  },
+  "white": {
+    "dark": "#C7C7C7",
+    "bright": "#EBEBEB"
+  },
+  "text": "#FFFFFF",
+  "border": "#121212",
+  "success": "#00A86B"
 }
