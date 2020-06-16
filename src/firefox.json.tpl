@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "v2.0.1",
+  "version": "v2.0.2",
   "name": "Slate",
   "theme": {
     "images": {},
