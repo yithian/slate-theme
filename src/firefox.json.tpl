@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "2.0.2",
+  "version": "2.0.3",
   "name": "Slate",
   "theme": {
     "images": {},
@@ -19,6 +19,7 @@
       "toolbar_field_border": "<%= slate9 %>",
       "toolbar_field_border_focus": "<%= slate9 %>",
       "sidebar": "<%= slate1 %>",
+      "sidebar_border": "<%= slate0 %>",
       "sidebar_text": "<%= slate6 %>",
       "sidebar_highlight": "<%= slate8 %>",
       "sidebar_highlight_text": "<%= slate0 %>",
