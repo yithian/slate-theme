@@ -1,28 +1,28 @@
 :root {
-  --primary-light: <%= black["bright"] %>;
-  --primary: <%= black["medium"] %>;
-  --primary-dark: <%= black["dark"] %>;
+  --primary-light: <%= slate2 %>;
+  --primary: <%= slate1 %>;
+  --primary-dark: <%= slate0 %>;
 
-  --secondary-light: <%= green["bright"] %>;
-  --secondary: <%= green["medium"] %>;
-  --secondary-dark: <%= green["dark"] %>;
+  --secondary-light: <%= slate8 %>;
+  --secondary: <%= slate9 %>;
+  --secondary-dark: <%= slate10 %>;
 
-  --ui-text-color: <%= text %>;
-  --ui-border-color: <%= border %>;
+  --ui-text-color: <%= slate6 %>;
+  --ui-border-color: <%= slate0 %>;
 
   --sn-stylekit-info-color: var(--secondary-light);
   --sn-stylekit-info-contrast-color: var(--primary-dark);
 
-  --sn-stylekit-neutral-color: <%= white["dark"] %>;
+  --sn-stylekit-neutral-color: <%= slate4 %>;
   --sn-stylekit-neutral-contrast-color: var(--ui-text-color);
 
-  --sn-stylekit-success-color: <%= success %>;
+  --sn-stylekit-success-color: <%= slate7 %>;
   --sn-stylekit-success-contrast-color: var(--ui-text-color);
 
-  --sn-stylekit-warning-color: <%= yellow["dark"] %>;
+  --sn-stylekit-warning-color: <%= slate13 %>;
   --sn-stylekit-warning-contrast-color: var(--ui-text-color);
 
-  --sn-stylekit-danger-color: <%= red["dark"] %>;
+  --sn-stylekit-danger-color: <%= slate11 %>;
   --sn-stylekit-danger-contrast-color: var(--ui-text-color);
 
   --sn-desktop-titlebar-bg-color: var(--primary-dark);

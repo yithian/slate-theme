@@ -1,39 +1,18 @@
 {
-  "black": {
-    "dark": "#252A2F",
-    "medium": "#47494A",
-    "bright": "#525354"
-  },
-  "red": {
-    "dark": "#733635",
-    "bright": "#904342"
-  },
-  "green": {
-    "dark": "#4A5D23",
-    "medium": "#8A9A5B",
-    "bright": "#BDE4A8"
-  },
-  "yellow": {
-    "dark": "#E3AB57",
-    "bright": "#C2A982"
-  },
-  "blue": {
-    "dark": "#708090",
-    "bright": "#778899"
-  },
-  "magenta": {
-    "dark": "#80757A",
-    "bright": "#B181B4"
-  },
-  "cyan": {
-    "dark": "#00C5CD",
-    "bright": "#B6D0CA"
-  },
-  "white": {
-    "dark": "#C7C7C7",
-    "bright": "#E2E2E8"
-  },
-  "text": "#FFFFFF",
-  "border": "#121212",
-  "success": "#00A86B"
+  "slate0": "#2F333A",
+  "slate1": "#353C40",
+  "slate2": "#3D404D",
+  "slate3": "#58606E",
+  "slate4": "#C0BCB8",
+  "slate5": "#CACBD0",
+  "slate6": "#DDE1E4",
+  "slate7": "#86BB8A",
+  "slate8": "#89A43F",
+  "slate9": "#5F7C29",
+  "slate10": "#3A5A18",
+  "slate11": "#A55443",
+  "slate12": "#C07F2A",
+  "slate13": "#EBCE89",
+  "slate14": "#90ACC1",
+  "slate15": "#9D8EB4"
 }
