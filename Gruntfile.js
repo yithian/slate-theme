@@ -40,7 +40,9 @@ module.exports = function(grunt) {
           'mode': 'zip',
         },
         'files': [{
-          'src': ['dist/manifest.json'],
+          'expand': true,
+          'cwd': 'work',
+          'src': 'manifest.json',
           'dest': '/',
         }],
       },
