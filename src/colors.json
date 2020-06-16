@@ -15,23 +15,23 @@
   },
   "yellow": {
     "dark": "#E3AB57",
-    "bright": "#EECD9A"
+    "bright": "#C2A982"
   },
   "blue": {
     "dark": "#708090",
     "bright": "#778899"
   },
   "magenta": {
-    "dark": "#856FC0",
-    "bright": "#B2A4D7"
+    "dark": "#80757A",
+    "bright": "#B181B4"
   },
   "cyan": {
     "dark": "#00C5CD",
-    "bright": "#48D1CC"
+    "bright": "#B6D0CA"
   },
   "white": {
     "dark": "#C7C7C7",
-    "bright": "#EBEBEB"
+    "bright": "#E2E2E8"
   },
   "text": "#FFFFFF",
   "border": "#121212",
