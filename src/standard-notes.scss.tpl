@@ -1,7 +1,7 @@
 :root {
-  --primary-light: <%= slate2 %>;
-  --primary: <%= slate1 %>;
-  --primary-dark: <%= slate0 %>;
+  --primary-light: <%= slate3 %>;
+  --primary: <%= slate2 %>;
+  --primary-dark: <%= slate1 %>;
 
   --secondary-light: <%= slate8 %>;
   --secondary: <%= slate9 %>;
