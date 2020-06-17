@@ -3,13 +3,13 @@
   --primary: #434F56;
   --primary-dark: #353C40;
   --secondary-light: #B4CE88;
-  --secondary: #A5B33D;
-  --secondary-dark: #888D3A;
-  --ui-text-color: #DDE1E4;
+  --secondary: #95A861;
+  --secondary-dark: #8C974E;
+  --ui-text-color: #F1F2F4;
   --ui-border-color: #2F333A;
   --sn-stylekit-info-color: var(--secondary-light);
   --sn-stylekit-info-contrast-color: var(--primary-dark);
-  --sn-stylekit-neutral-color: #C0BCB8;
+  --sn-stylekit-neutral-color: #D7DBE5;
   --sn-stylekit-neutral-contrast-color: var(--ui-text-color);
   --sn-stylekit-success-color: #86BB8A;
   --sn-stylekit-success-contrast-color: var(--ui-text-color);
