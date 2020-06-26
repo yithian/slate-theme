@@ -25,6 +25,11 @@ module.exports = function(grunt) {
           'dist/slate.sh': ['src/slate.sh.tpl'],
         },
       },
+      'ge': {
+        'files': {
+          'dist/slate-gedit.xml': ['src/gedit.xml.tpl'],
+        },
+      },
     },
 
     'sass': {
@@ -69,5 +74,6 @@ module.exports = function(grunt) {
   grunt.registerTask('ff', 'Create the Firefox extension file', ['template:ff', 'compress:ff']);
   grunt.registerTask('wt', 'Create the windows-terminal theme snippet', ['template:wt']);
   grunt.registerTask('gt', 'Create the gnome-terminal install script', ['template:gt']);
-  grunt.registerTask('default', ['sn', 'ff', 'wt', 'gt']);
+  grunt.registerTask('ge', 'Create the gedit theme file', ['template:ge']);
+  grunt.registerTask('default', ['sn', 'ff', 'wt', 'gt', 'ge']);
 };
