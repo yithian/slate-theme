@@ -2,6 +2,12 @@
 
 A theme with shady grey and mossy green highlights.
 
+## Palettes
+![shaded-stone.png](./images/shaded-stone.png)
+![cloudy-skies.png](./images/cloudy-skies.png)
+![moss.png](./images/moss.png)
+![reflections.png](./images/reflections.png)
+
 ## Screenshot
 
 ### Standard Notes
