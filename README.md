@@ -2,6 +2,8 @@
 
 A theme with shady grey and mossy green highlights.
 
+Inspired by and compatable with the incredible [Nord theme](https://www.nordtheme.com/)
+
 ## Palettes
 ![shaded-stone.png](./images/shaded-stone.png)
 ![cloudy-skies.png](./images/cloudy-skies.png)
