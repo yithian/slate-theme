@@ -30,6 +30,11 @@ module.exports = function(grunt) {
           'dist/slate-gedit.xml': ['src/gedit.xml.tpl'],
         },
       },
+      'ch': {
+        'files': {
+          'work/chrome-manifest.json': ['src/chrome.json.tpl'],
+        },
+      },
     },
 
     'sass': {
@@ -75,5 +80,6 @@ module.exports = function(grunt) {
   grunt.registerTask('wt', 'Create the windows-terminal theme snippet', ['template:wt']);
   grunt.registerTask('gt', 'Create the gnome-terminal install script', ['template:gt']);
   grunt.registerTask('ge', 'Create the gedit theme file', ['template:ge']);
+  grunt.registerTask('ch', 'Create the Chrome theme manifest', ['template:ch']);
   grunt.registerTask('default', ['sn', 'ff', 'wt', 'gt', 'ge']);
 };
