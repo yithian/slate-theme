@@ -18,6 +18,9 @@ Inspired by and compatable with the incredible [Nord theme](https://www.nordthem
 ### Firefox
 ![ff-preview.png](./images/ff-preview.png)
 
+### Chromium
+![[chromium-preview](./images/ch-preview.png)
+
 ## Standard Notes Installation
 
 1. Click on Extensions -> Import Extension
