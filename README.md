@@ -33,6 +33,11 @@ Inspired by and compatable with the incredible [Nord theme](https://www.nordthem
 1. Browse to https://addons.mozilla.org/en-US/firefox/addon/slate-theme/
 2. Click Install
 
+## Chromium / Chrome / Brave / etc Installation
+
+1. Browse to https://chrome.google.com/webstore/detail/slate/kjkpbieadgoimbamhfegffpdcdcjkcmi
+2. Click Add to Chrome
+
 ## windows-terminal usage
 
 1. Launch windows-terminal and open the settings (Ctrl+,)
