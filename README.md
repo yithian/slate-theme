@@ -19,7 +19,7 @@ Inspired by and compatable with the incredible [Nord theme](https://www.nordthem
 ![ff-preview.png](./images/ff-preview.png)
 
 ### Chromium
-![[chromium-preview](./images/ch-preview.png)
+![ch-promo-small.png](./images/ch-promo-small.png)
 
 ## Standard Notes Installation
 
