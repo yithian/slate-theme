@@ -60,4 +60,6 @@
   --sn-stylekit-scrollbar-thumb-color: var(--secondary-light);
 
   ::placeholder { color: var(--secondary); }
+
+  .sn-button.neutral { background-color: var(--sn-stylekit-danger-color); }
 }
