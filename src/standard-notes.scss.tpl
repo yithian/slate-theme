@@ -10,6 +10,8 @@
   --ui-text-color: <%= slate6 %>;
   --ui-border-color: <%= slate0 %>;
 
+  --cm-string-color: <%= slate14 %>;
+
   --sn-stylekit-info-color: var(--secondary-light);
   --sn-stylekit-info-contrast-color: var(--primary-dark);
 
@@ -59,7 +61,9 @@
   --sn-stylekit-scrollbar-track-border-color: var(--ui-border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--secondary-light);
 
+  --sn-stylekit-grey-5: var(--secondary-light);
+
   ::placeholder { color: var(--secondary); }
 
-  .sn-button.neutral { background-color: var(--sn-stylekit-danger-color); }
+  .cm.string { color: var(--cm-string-color); }
 }
