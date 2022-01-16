@@ -65,5 +65,10 @@
 
   ::placeholder { color: var(--secondary); }
 
-  .cm.string { color: var(--cm-string-color); }
+  .note.selected {
+    background-color: var(--secondary);
+    color: var(--primary-dark);
+  }
+
+  .cm-string { color: var(--cm-string-color); }
 }
