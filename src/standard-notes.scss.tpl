@@ -7,6 +7,8 @@
   --secondary: <%= slate9 %>;
   --secondary-dark: <%= slate10 %>;
 
+  --numbers-color: <%= slate15 %>;
+
   --ui-text-color: <%= slate6 %>;
   --ui-border-color: <%= slate0 %>;
 
@@ -16,7 +18,7 @@
   --sn-stylekit-info-contrast-color: var(--primary-dark);
 
   --sn-stylekit-neutral-color: <%= slate4 %>;
-  --sn-stylekit-neutral-contrast-color: var(--ui-text-color);
+  --sn-stylekit-neutral-contrast-color: var(--primary-dark);
 
   --sn-stylekit-success-color: <%= slate7 %>;
   --sn-stylekit-success-contrast-color: var(--ui-text-color);
@@ -60,6 +62,8 @@
 
   --sn-stylekit-scrollbar-track-border-color: var(--ui-border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--secondary-light);
+
+  --sn-stylekit-accessory-tint-color-4: var(--numbers-color);
 
   --sn-stylekit-grey-5: var(--secondary-light);
 

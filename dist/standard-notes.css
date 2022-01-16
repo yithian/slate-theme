@@ -5,13 +5,14 @@
   --secondary-light: #B4CE88;
   --secondary: #95A861;
   --secondary-dark: #8C974E;
+  --numbers-color: #AA9DBE;
   --ui-text-color: #F1F2F4;
   --ui-border-color: #2F333A;
   --cm-string-color: #B5C6D4;
   --sn-stylekit-info-color: var(--secondary-light);
   --sn-stylekit-info-contrast-color: var(--primary-dark);
   --sn-stylekit-neutral-color: #D7DBE5;
-  --sn-stylekit-neutral-contrast-color: var(--ui-text-color);
+  --sn-stylekit-neutral-contrast-color: var(--primary-dark);
   --sn-stylekit-success-color: #86BB8A;
   --sn-stylekit-success-contrast-color: var(--ui-text-color);
   --sn-stylekit-warning-color: #C3B113;
@@ -42,6 +43,7 @@
   --sn-stylekit-input-border-color: var(--ui-border-color);
   --sn-stylekit-scrollbar-track-border-color: var(--ui-border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--secondary-light);
+  --sn-stylekit-accessory-tint-color-4: var(--numbers-color);
   --sn-stylekit-grey-5: var(--secondary-light);
 }
 :root ::placeholder {
