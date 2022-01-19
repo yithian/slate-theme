@@ -63,7 +63,7 @@
   --sn-stylekit-scrollbar-track-border-color: var(--ui-border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--secondary-light);
 
-  --sn-stylekit-menu-border: 1px solid <%= slate2 %>
+  --sn-stylekit-menu-border: 1px solid <%= slate0 %>;
   --sn-stylekit-accessory-tint-color-4: var(--numbers-color);
 
   --sn-stylekit-grey-5: var(--secondary-light);
