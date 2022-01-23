@@ -67,7 +67,7 @@
   --sn-stylekit-accessory-tint-color-5: <%= slate14 %>;
   --sn-stylekit-accessory-tint-color-6: <%= slate11 %>;
 
-  --sn-stylekit-grey-5: var(--green-light);
+  --sn-stylekit-grey-5: var(--grey);
 
   ::placeholder { color: var(--green); }
 

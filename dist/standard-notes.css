@@ -49,7 +49,7 @@
   --sn-stylekit-accessory-tint-color-4: #AA9DBE;
   --sn-stylekit-accessory-tint-color-5: #B5C6D4;
   --sn-stylekit-accessory-tint-color-6: #A55443;
-  --sn-stylekit-grey-5: var(--green-light);
+  --sn-stylekit-grey-5: var(--grey);
 }
 :root ::placeholder {
   color: var(--green);
