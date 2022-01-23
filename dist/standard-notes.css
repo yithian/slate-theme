@@ -1,61 +1,61 @@
 :root {
-  --primary-light: #59666E;
-  --primary: #434F56;
-  --primary-dark: #353C40;
-  --secondary-light: #B4CE88;
-  --secondary: #95A861;
-  --secondary-dark: #8C974E;
+  --grey-light: #59666E;
+  --grey: #434F56;
+  --grey-dark: #353C40;
+  --green-light: #B4CE88;
+  --green: #95A861;
+  --green-dark: #8C974E;
   --numbers-color: #AA9DBE;
+  --border-color: #2F333A;
   --ui-text-color: #F1F2F4;
-  --ui-border-color: #2F333A;
-  --cm-string-color: #B5C6D4;
-  --sn-stylekit-info-color: var(--secondary-light);
-  --sn-stylekit-info-contrast-color: var(--primary-dark);
+  --sn-stylekit-info-color: var(--green-light);
+  --sn-stylekit-info-contrast-color: var(--grey-dark);
   --sn-stylekit-neutral-color: #D7DBE5;
-  --sn-stylekit-neutral-contrast-color: var(--primary-dark);
+  --sn-stylekit-neutral-contrast-color: var(--grey-dark);
   --sn-stylekit-success-color: #86BB8A;
   --sn-stylekit-success-contrast-color: var(--ui-text-color);
   --sn-stylekit-warning-color: #C3B113;
   --sn-stylekit-warning-contrast-color: var(--ui-text-color);
   --sn-stylekit-danger-color: #A55443;
   --sn-stylekit-danger-contrast-color: var(--ui-text-color);
-  --sn-desktop-titlebar-bg-color: var(--primary-dark);
-  --sn-desktop-titlebar-border-color: var(--ui-border-color);
+  --sn-desktop-titlebar-bg-color: var(--grey-dark);
+  --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--ui-text-color);
-  --sn-desktop-titlebar-ui-hover-color: var(--secondary-light);
-  --sn-stylekit-shadow-color: var(--primary-light);
-  --sn-stylekit-background-color: var(--primary-dark);
-  --sn-stylekit-border-color: var(--ui-border-color);
+  --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-shadow-color: var(--grey-light);
+  --sn-stylekit-background-color: var(--grey-dark);
+  --sn-stylekit-border-color: var(--border-color);
   --sn-stylekit-foreground-color: var(--ui-text-color);
-  --sn-stylekit-contrast-background-color: var(--primary);
+  --sn-stylekit-contrast-background-color: var(--grey);
   --sn-stylekit-contrast-foreground-color: var(--ui-text-color);
-  --sn-stylekit-contrast-border-color: var(--ui-border-color);
-  --sn-stylekit-secondary-background-color: var(--primary);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-secondary-background-color: var(--grey);
   --sn-stylekit-secondary-foreground-color: var(--ui-text-color);
-  --sn-stylekit-secondary-border-color: var(--ui-border-color);
-  --sn-stylekit-secondary-contrast-background-color: var(--primary-light);
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-background-color: var(--grey-light);
   --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
-  --sn-stylekit-secondary-contrast-border-color: var(--ui-border-color);
-  --sn-stylekit-editor-background-color: var(--primary-dark);
-  --sn-stylekit-editor-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
   --sn-stylekit-paragraph-text-color: var(--ui-text-color);
-  --sn-stylekit-input-placeholder-color: var(--primary-light);
-  --sn-stylekit-input-border-color: var(--ui-border-color);
-  --sn-stylekit-scrollbar-track-border-color: var(--ui-border-color);
-  --sn-stylekit-scrollbar-thumb-color: var(--secondary-light);
+  --sn-stylekit-input-placeholder-color: var(--grey-light);
+  --sn-stylekit-input-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--green-light);
   --sn-stylekit-menu-border: 1px solid #2F333A;
-  --sn-stylekit-accessory-tint-color-4: var(--numbers-color);
-  --sn-stylekit-grey-5: var(--secondary-light);
+  --sn-stylekit-accessory-tint-color-1: #8C974E;
+  --sn-stylekit-accessory-tint-color-2: #D69643;
+  --sn-stylekit-accessory-tint-color-3: #C3B113;
+  --sn-stylekit-accessory-tint-color-4: #AA9DBE;
+  --sn-stylekit-accessory-tint-color-5: #B5C6D4;
+  --sn-stylekit-accessory-tint-color-6: #A55443;
+  --sn-stylekit-grey-5: var(--green-light);
 }
 :root ::placeholder {
-  color: var(--secondary);
-}
-:root .note.selected {
-  background-color: var(--secondary);
-  color: var(--primary-dark);
+  color: var(--green);
 }
 :root .cm-string {
-  color: var(--cm-string-color);
+  color: #B5C6D4;
 }
 
 /*# sourceMappingURL=standard-notes.css.map */
