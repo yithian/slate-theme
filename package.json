@@ -9,7 +9,8 @@
     "grunt-contrib-compress": "^1.6.0",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-template": "^1.0.0",
-    "sass": "^1.26.10"
+    "sass": "^1.26.10",
+    "simple-get": ">=4.0.1"
   },
   "sn": {
     "main": "dist/standard-notes.css"
