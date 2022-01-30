@@ -38,7 +38,7 @@
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
   --sn-stylekit-paragraph-text-color: var(--ui-text-color);
-  --sn-stylekit-input-placeholder-color: var(--grey-light);
+  --sn-stylekit-input-placeholder-color: var(--green);
   --sn-stylekit-input-border-color: var(--border-color);
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--green-light);
@@ -52,11 +52,9 @@
   --sn-stylekit-grey-4-opacity-variant: #59666E;
   --sn-stylekit-grey-5: var(--grey);
 }
-:root ::placeholder {
-  color: var(--green);
-}
-:root .cm-string {
-  color: #B5C6D4;
+
+.cm-link, .cm-string {
+  color: #B5C6D4 !important;
 }
 
 /*# sourceMappingURL=standard-notes.css.map */

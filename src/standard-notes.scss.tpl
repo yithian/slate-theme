@@ -52,7 +52,7 @@
 
   --sn-stylekit-paragraph-text-color: var(--ui-text-color);
 
-  --sn-stylekit-input-placeholder-color: var(--grey-light);
+  --sn-stylekit-input-placeholder-color: var(--green);
   --sn-stylekit-input-border-color: var(--border-color);
 
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
@@ -69,8 +69,6 @@
 
   --sn-stylekit-grey-4-opacity-variant: <%= slate3 %>;
   --sn-stylekit-grey-5: var(--grey);
-
-  ::placeholder { color: var(--green); }
-
-  .cm-string { color: <%= slate14 %>; }
 }
+
+.cm-link, .cm-string { color: <%= slate14 %> !important; }
