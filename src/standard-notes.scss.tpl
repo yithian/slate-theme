@@ -71,4 +71,4 @@
   --sn-stylekit-grey-5: var(--grey);
 }
 
-.cm-link, .cm-string { color: <%= slate14 %> !important; }
+//.cm-link, .cm-string { color: <%= slate14 %> !important; }
