@@ -53,4 +53,8 @@
   --sn-stylekit-grey-5: var(--grey);
 }
 
+.cm-link, .cm-string {
+  color: #B5C6D4 !important;
+}
+
 /*# sourceMappingURL=standard-notes.css.map */
