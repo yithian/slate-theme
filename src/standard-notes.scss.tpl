@@ -71,4 +71,8 @@
   --sn-stylekit-grey-5: var(--grey);
 }
 
+.cm-comment { color: <%= slate3 %> !important; }
+.cm-keyword, .cm-operator { color: <%= slate9 %> !important; }
 .cm-link, .cm-string { color: <%= slate14 %> !important; }
+.cm-number { color: <%= slate15 %> !important; }
+.cm-variable { color: <%= slate8 %> !important; }

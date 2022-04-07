@@ -53,8 +53,24 @@
   --sn-stylekit-grey-5: var(--grey);
 }
 
+.cm-comment {
+  color: #59666E !important;
+}
+
+.cm-keyword, .cm-operator {
+  color: #95A861 !important;
+}
+
 .cm-link, .cm-string {
   color: #B5C6D4 !important;
+}
+
+.cm-number {
+  color: #AA9DBE !important;
+}
+
+.cm-variable {
+  color: #B4CE88 !important;
 }
 
 /*# sourceMappingURL=standard-notes.css.map */
