@@ -1,7 +1,7 @@
 {
   "name": "sn-theme-slate",
   "description": "A theme with shady greys and mossy greens.",
-  "version": "v2.5.0",
+  "version": "v2.6.0",
   "license": "MIT",
   "devDependencies": {
     "grunt": "*",

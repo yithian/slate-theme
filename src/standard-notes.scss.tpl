@@ -55,6 +55,8 @@
   --sn-stylekit-input-placeholder-color: var(--green);
   --sn-stylekit-input-border-color: var(--border-color);
 
+  --navigation-item-selected-background-color: var(--grey-light);
+
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
   --sn-stylekit-scrollbar-thumb-color: var(--green-light);
 
