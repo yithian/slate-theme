@@ -29,6 +29,7 @@
   --sn-desktop-titlebar-ui-color: var(--ui-text-color);
   --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
 
+  // StyleKit Vars
   --sn-stylekit-shadow-color: var(--grey-light);
 
   --sn-stylekit-background-color: var(--grey-dark);
@@ -52,15 +53,23 @@
 
   --sn-stylekit-paragraph-text-color: var(--ui-text-color);
 
-  --sn-stylekit-input-placeholder-color: var(--green);
-  --sn-stylekit-input-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+
+  --sn-stylekit-menu-border: 1px solid <%= slate0 %>;
 
   --navigation-item-selected-background-color: var(--grey-light);
 
-  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
-  --sn-stylekit-scrollbar-thumb-color: var(--green-light);
+  --sn-stylekit-passive-color-0: var(--green-dark);
+  --sn-stylekit-passive-color-1: var(--sn-stylekit-info-color);
+  --sn-stylekit-passive-color-3: var(--green);
+  --sn-stylekit-passive-color-4: var(--grey);
+  --sn-stylekit-passive-color-4-opacity-variant: var(--green-dark);
+  --sn-stylekit-passive-color-5: var(--grey-light);
 
-  --sn-stylekit-menu-border: 1px solid <%= slate0 %>;
+  .group:hover {
+    background: var(--green-light);
+  }
 
   --sn-stylekit-accessory-tint-color-1: <%= slate10 %>;
   --sn-stylekit-accessory-tint-color-2: <%= slate12 %>;

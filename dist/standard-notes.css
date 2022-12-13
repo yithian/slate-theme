@@ -38,12 +38,16 @@
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
   --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
   --sn-stylekit-paragraph-text-color: var(--ui-text-color);
-  --sn-stylekit-input-placeholder-color: var(--green);
-  --sn-stylekit-input-border-color: var(--border-color);
-  --navigation-item-selected-background-color: var(--grey-light);
   --sn-stylekit-scrollbar-track-border-color: var(--border-color);
-  --sn-stylekit-scrollbar-thumb-color: var(--green-light);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
   --sn-stylekit-menu-border: 1px solid #2F333A;
+  --navigation-item-selected-background-color: var(--grey-light);
+  --sn-stylekit-passive-color-0: var(--green-dark);
+  --sn-stylekit-passive-color-1: var(--sn-stylekit-info-color);
+  --sn-stylekit-passive-color-3: var(--green);
+  --sn-stylekit-passive-color-4: var(--grey);
+  --sn-stylekit-passive-color-4-opacity-variant: var(--green-dark);
+  --sn-stylekit-passive-color-5: var(--grey-light);
   --sn-stylekit-accessory-tint-color-1: #8C974E;
   --sn-stylekit-accessory-tint-color-2: #D69643;
   --sn-stylekit-accessory-tint-color-3: #C3B113;
@@ -52,6 +56,9 @@
   --sn-stylekit-accessory-tint-color-6: #A55443;
   --sn-stylekit-grey-4-opacity-variant: #59666E;
   --sn-stylekit-grey-5: var(--grey);
+}
+:root .group:hover {
+  background: var(--green-light);
 }
 
 .cm-comment {
