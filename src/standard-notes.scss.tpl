@@ -59,6 +59,7 @@
   --sn-stylekit-menu-border: 1px solid <%= slate0 %>;
 
   --navigation-item-selected-background-color: var(--grey-light);
+  --item-cell-selected-background-color: var(--grey-light);
 
   --sn-stylekit-passive-color-0: var(--green-dark);
   --sn-stylekit-passive-color-1: var(--sn-stylekit-info-color);
