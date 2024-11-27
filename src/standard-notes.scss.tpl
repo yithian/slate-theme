@@ -68,10 +68,6 @@
   --sn-stylekit-passive-color-4-opacity-variant: var(--green-dark);
   --sn-stylekit-passive-color-5: var(--grey-light);
 
-  .group:hover {
-    background: var(--green-light);
-  }
-
   --sn-stylekit-accessory-tint-color-1: <%= slate10 %>;
   --sn-stylekit-accessory-tint-color-2: <%= slate12 %>;
   --sn-stylekit-accessory-tint-color-3: <%= slate13 %>;

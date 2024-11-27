@@ -58,9 +58,6 @@
   --sn-stylekit-grey-4-opacity-variant: #59666E;
   --sn-stylekit-grey-5: var(--grey);
 }
-:root .group:hover {
-  background: var(--green-light);
-}
 
 .cm-comment {
   color: #59666E !important;
